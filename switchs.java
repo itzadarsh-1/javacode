@@ -2,6 +2,23 @@ public class switchs {
     public static void main (String [] args)
     {
         int day =7;
+        String DAYS_NAME[] = {
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thuresday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+        };
+    
+        if(day >= 1 && day <= 7){
+            System.out.println(DAYS_NAME[day-1]);
+        }
+        else{
+            System.out.println("Invalide");
+        }
+
         switch(day)
         {
             case 1:
