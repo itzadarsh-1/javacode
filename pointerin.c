@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+    int *p1, *p2;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    // Assign addresses to pointers
+    p1 = &a;
+    p2 = &b;
+
+    // Add values using pointers
+    sum = *p1 + *p2;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
