@@ -10,3 +10,5 @@ int main(){
     printf("Sum = %d", sum);
     return 0;
 }
+
+//SUM OF TWO NO 
